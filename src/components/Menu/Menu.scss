@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.menu {
+    & &__home-link.navbar-item {
+        &:hover,
+        &:focus {
+            background-color: $primary;
+            color: white;
+        }
+    }
+}

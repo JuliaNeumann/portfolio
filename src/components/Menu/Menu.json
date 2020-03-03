@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "route": "/resume",
+            "text": {
+                "EN": "Resume",
+                "DE": "Lebenslauf"
+            }
+        },
+        {
+            "route": "/skills",
+            "text": {
+                "EN": "Skills",
+                "DE": "Fähigkeiten"
+            }
+        },
+        {
+            "route": "/projects",
+            "text": {
+                "EN": "Projects",
+                "DE": "Projekte"
+            }
+        }
+    ]
+}
