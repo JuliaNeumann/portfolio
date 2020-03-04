@@ -12,8 +12,12 @@ function App() {
 
       <div className="container">
         <Switch>
-          {menuData.items.map((item, index) => {
-            return <Route path={item.route}>{item.text.EN}</Route>;
+          {menuData.items.map(item => {
+            return (
+              <Route path={item.route} key={item.route}>
+                {item.text.EN}
+              </Route>
+            );
           })}
           <Route path="/">Home</Route>
         </Switch>

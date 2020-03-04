@@ -4,53 +4,83 @@ import "./Menu.scss";
 
 const data = require("./Menu.json");
 
-function Menu() {
-  return (
-    <nav className="menu navbar" role="navigation" aria-label="main navigation">
-      <div className="container">
-        <div className="navbar-brand">
-          <NavLink
-            className="menu__home-link navbar-item"
-            to="/"
-            activeClassName="is-active"
-            exact={true}
-          >
-            <span className="icon">
-              <i className="fas fa-home"></i>
-            </span>
-          </NavLink>
+class Menu extends React.Component {
+  constructor(props) {
+    super(props);
 
-          <button
-            className="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </button>
-        </div>
+    this.state = { open: false };
 
-        <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-start">
-            {data.items.map((item, index) => {
-              return (
-                <NavLink
-                  key={index}
-                  className="navbar-item"
-                  to={item.route}
-                  activeClassName="is-active"
-                >
-                  {item.text.EN}
-                </NavLink>
-              );
-            })}
+    this.close = this.close.bind(this);
+    this.toggleOpen = this.toggleOpen.bind(this);
+  }
+
+  close() {
+    this.setState({ open: false });
+  }
+
+  toggleOpen() {
+    this.setState({ open: !this.state.open });
+  }
+
+  render() {
+    return (
+      <nav
+        className="menu navbar"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div className="container">
+          <div className="navbar-brand">
+            <NavLink
+              className="menu__home-link navbar-item"
+              to="/"
+              activeClassName="is-active"
+              exact={true}
+            >
+              <span className="icon">
+                <i className="fas fa-home"></i>
+              </span>
+            </NavLink>
+
+            <button
+              className={`navbar-burger burger ${
+                this.state.open ? "is-active" : ""
+              }`}
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+              onClick={this.toggleOpen}
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <div
+            id="navbarBasicExample"
+            className={`navbar-menu ${this.state.open ? "is-active" : ""}`}
+          >
+            <div className="navbar-start">
+              {data.items.map(item => {
+                return (
+                  <NavLink
+                    key={item.route}
+                    className="navbar-item"
+                    to={item.route}
+                    activeClassName="is-active"
+                    onClick={this.close}
+                  >
+                    {item.text.EN}
+                  </NavLink>
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-  );
+      </nav>
+    );
+  }
 }
 
 export default Menu;
