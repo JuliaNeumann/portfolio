@@ -48,7 +48,6 @@ class Menu extends React.Component {
               }`}
               aria-label="menu"
               aria-expanded="false"
-              data-target="navbarBasicExample"
               onClick={this.toggleOpen}
             >
               <span aria-hidden="true"></span>
@@ -57,10 +56,7 @@ class Menu extends React.Component {
             </button>
           </div>
 
-          <div
-            id="navbarBasicExample"
-            className={`navbar-menu ${this.state.open ? "is-active" : ""}`}
-          >
+          <div className={`navbar-menu ${this.state.open ? "is-active" : ""}`}>
             <div className="navbar-start">
               {data.items.map(item => {
                 return (
@@ -75,6 +71,22 @@ class Menu extends React.Component {
                   </NavLink>
                 );
               })}
+            </div>
+            <div className="menu__end navbar-end">
+              <button
+                className={`menu__lang menu__lang--first ${
+                  this.props.lang === "EN" ? "menu__lang--current" : ""
+                }`}
+              >
+                EN
+              </button>
+              <button
+                className={`menu__lang ${
+                  this.props.lang === "DE" ? "menu__lang--current" : ""
+                }`}
+              >
+                DE
+              </button>
             </div>
           </div>
         </div>

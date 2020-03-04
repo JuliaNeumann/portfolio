@@ -1,4 +1,7 @@
 @import "../../styles/variables";
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/elements/container.sass";
+@import "bulma/sass/components/navbar.sass";
 
 .menu {
     & &__home-link.navbar-item {
@@ -6,6 +9,32 @@
         &:focus {
             background-color: $primary;
             color: white;
+        }
+    }
+
+    &__end {
+        @media screen and (max-width: $navbar-breakpoint) {
+            text-align: right;
+        }
+    }
+
+    &__lang {
+        padding: 7px;
+        position: relative;
+
+        &--first::after {
+            content: '';
+            position: absolute;
+            right: -1px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 2px;
+            height: 18px;
+            background-color: $primary;
+        }
+
+        &--current {
+            font-weight: bold;
         }
     }
 }

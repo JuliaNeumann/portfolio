@@ -5,25 +5,32 @@ import Menu from "./components/Menu/Menu";
 
 const menuData = require("./components/Menu/Menu.json");
 
-function App() {
-  return (
-    <Router>
-      <Menu />
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { lang: "EN" };
+  }
 
-      <div className="container">
-        <Switch>
-          {menuData.items.map(item => {
-            return (
-              <Route path={item.route} key={item.route}>
-                {item.text.EN}
-              </Route>
-            );
-          })}
-          <Route path="/">Home</Route>
-        </Switch>
-      </div>
-    </Router>
-  );
+  render() {
+    return (
+      <Router>
+        <Menu lang={this.state.lang} />
+
+        <div className="container">
+          <Switch>
+            {menuData.items.map(item => {
+              return (
+                <Route path={item.route} key={item.route}>
+                  {item.text.EN}
+                </Route>
+              );
+            })}
+            <Route path="/">Home</Route>
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
