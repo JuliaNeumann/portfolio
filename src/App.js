@@ -9,19 +9,24 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { lang: "EN" };
+    this.setLanguage = this.setLanguage.bind(this);
+  }
+
+  setLanguage(lang) {
+    this.setState({lang});
   }
 
   render() {
     return (
       <Router>
-        <Menu lang={this.state.lang} />
+        <Menu lang={this.state.lang} setLanguage={this.setLanguage} />
 
         <div className="container">
           <Switch>
             {menuData.items.map(item => {
               return (
                 <Route path={item.route} key={item.route}>
-                  {item.text.EN}
+                  {item.text[this.state.lang]}
                 </Route>
               );
             })}

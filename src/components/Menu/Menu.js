@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import LanguageSelect from "../LanguageSelect/LanguageSelect";
+
 import "./Menu.scss";
 
 const data = require("./Menu.json");
@@ -67,26 +69,22 @@ class Menu extends React.Component {
                     activeClassName="is-active"
                     onClick={this.close}
                   >
-                    {item.text.EN}
+                    {item.text[this.props.lang]}
                   </NavLink>
                 );
               })}
             </div>
             <div className="menu__end navbar-end">
-              <button
-                className={`menu__lang menu__lang--first ${
-                  this.props.lang === "EN" ? "menu__lang--current" : ""
-                }`}
-              >
-                EN
-              </button>
-              <button
-                className={`menu__lang ${
-                  this.props.lang === "DE" ? "menu__lang--current" : ""
-                }`}
-              >
-                DE
-              </button>
+              <LanguageSelect
+                lang={"EN"}
+                current={this.props.lang === "EN"}
+                setLanguage={this.props.setLanguage}
+              ></LanguageSelect>
+              <LanguageSelect
+                lang={"DE"}
+                current={this.props.lang === "DE"}
+                setLanguage={this.props.setLanguage}
+              ></LanguageSelect>
             </div>
           </div>
         </div>
