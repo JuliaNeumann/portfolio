@@ -3,7 +3,7 @@ import React from "react";
 import "./LanguageSelect.scss";
 
 function LanguageSelect(props) {
-  const language = props.lang;  
+  const language = props.lang;
 
   return (
     <button

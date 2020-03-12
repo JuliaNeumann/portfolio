@@ -1,4 +1,8 @@
 {
+    "home": {
+        "EN": "Home",
+        "DE": "Home"
+    },
     "items": [
         {
             "route": "/resume",

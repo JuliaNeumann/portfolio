@@ -38,3 +38,9 @@
         }
     }
 }
+
+// Bulma overrides 
+
+.navbar {
+	border-bottom: 1px solid $primary;
+}

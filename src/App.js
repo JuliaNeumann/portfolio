@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   setLanguage(lang) {
-    this.setState({lang});
+    this.setState({ lang });
   }
 
   render() {

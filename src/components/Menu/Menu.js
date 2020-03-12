@@ -37,6 +37,7 @@ class Menu extends React.Component {
               className="menu__home-link navbar-item"
               to="/"
               activeClassName="is-active"
+              title={data.home[this.props.lang]}
               exact={true}
             >
               <span className="icon">
@@ -76,15 +77,15 @@ class Menu extends React.Component {
             </div>
             <div className="menu__end navbar-end">
               <LanguageSelect
-                lang={"EN"}
+                lang="EN"
                 current={this.props.lang === "EN"}
                 setLanguage={this.props.setLanguage}
-              ></LanguageSelect>
+              />
               <LanguageSelect
-                lang={"DE"}
+                lang="DE"
                 current={this.props.lang === "DE"}
                 setLanguage={this.props.setLanguage}
-              ></LanguageSelect>
+              />
             </div>
           </div>
         </div>
