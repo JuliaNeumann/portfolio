@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./styles/App.scss";
 import Menu from "./components/Menu/Menu";
 import Hero from "./components/Hero/Hero";
+import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 
 const menuData = require("./components/Menu/Menu.json");
@@ -20,7 +21,8 @@ class App extends React.Component {
 
   render() {
     const pages = {
-      "/skills": <Skills lang={this.state.lang} />
+      "/skills": <Skills lang={this.state.lang} />,
+      "/projects": <Projects lang={this.state.lang} />
     };
 
     return (

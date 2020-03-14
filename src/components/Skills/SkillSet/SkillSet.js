@@ -15,7 +15,7 @@ function SkillSet(props) {
       </h2>
       <ul>
         {category.items.map(item => {
-          return <li key={item[language]}>{item[language]}</li>;
+          return <li key={item.EN}>{item[language]}</li>;
         })}
       </ul>
     </section>

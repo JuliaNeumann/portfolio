@@ -1,325 +1,290 @@
-[
+{
+  "items": [
     {
-        "headline": {
-            "EN": "University Project: Web-based Mechanisms for E-Learner Tracking (MELT)",
-            "DE": "Studienprojekt: Web-based Mechanisms for E-Learner Tracking (MELT)"
-        },
-        "years": [2014],
-        "image": {
-            "src": "images/melt_logo_compressed.png",
-            "text": {
-                "DE": "Logo MELT Projekt",
-                "EN": "Logo MELT Project"
-            }
-        },
+      "headline": {
+        "EN": "University Project: Web-based Mechanisms for E-Learner Tracking (MELT)",
+        "DE": "Studienprojekt: Web-based Mechanisms for E-Learner Tracking (MELT)"
+      },
+      "years": [2014],
+      "image": {
+        "src": "images/melt_logo_compressed.png",
         "text": {
-            "EN": "In this project, which was completed within one term together with two fellow students, a number of mechanisms for tracking learners&#39; interactions with a learning platform were implemented. Different JavaScript technologies were used to, for example, keep track of the order and duration of page visits. The learning platform which was developed for this purpose, some simple visualizations of a fraction of the collected data and the project presentation can be viewed at the link below.",
-            "DE": "In diesem Projekt, das in Zusammenarbeit mit zwei Kommilitonen im Laufe eines Semesters entstand, wurden verschiedene Mechanismen implementiert, mit denen nachvollzogen werden kann, wie Lerner mit einer Lernplattform interagieren. Dabei wurden verschiedene JavaScript-Techniken eingesetzt, um z.B. die Reihenfolge und Dauer des Besuchs der einzelnen Seiten festzuhalten. Die zu diesem Zweck entwickelte Lernplattform, ein paar einfache Visualisierungen eines Bruchteils der gesammelten Daten sowie die Projektpräsentation können unter untenstehendem Link angesehen werden."
-        },
-        "link": {
-            "url": "http://linguistics.online.uni-marburg.de/free/information/student_projects/learner_tracking_project/index.php",
-            "text": {
-                "EN": "Learning Platform & Data Visualization",
-                "DE": "Lernplattform & Datenvisualisierung"
-            }
-        },
-        "technologies": [
-            "HTML",
-            "CSS",
-            "jQuery",
-            "JS",
-            "PHP",
-            "MySQL"
-        ]
+          "DE": "Logo MELT Projekt",
+          "EN": "Logo MELT Project"
+        }
+      },
+      "text": {
+        "EN": "In this project, which was completed within one term together with two fellow students, a number of mechanisms for tracking learners' interactions with a learning platform were implemented. Different JavaScript technologies were used to, for example, keep track of the order and duration of page visits. The learning platform which was developed for this purpose, some simple visualizations of a fraction of the collected data and the project presentation can be viewed at the link below.",
+        "DE": "In diesem Projekt, das in Zusammenarbeit mit zwei Kommilitonen im Laufe eines Semesters entstand, wurden verschiedene Mechanismen implementiert, mit denen nachvollzogen werden kann, wie Lerner mit einer Lernplattform interagieren. Dabei wurden verschiedene JavaScript-Techniken eingesetzt, um z.B. die Reihenfolge und Dauer des Besuchs der einzelnen Seiten festzuhalten. Die zu diesem Zweck entwickelte Lernplattform, ein paar einfache Visualisierungen eines Bruchteils der gesammelten Daten sowie die Projektpräsentation können unter untenstehendem Link angesehen werden."
+      },
+      "link": {
+        "url": "http://linguistics.online.uni-marburg.de/free/information/student_projects/learner_tracking_project/index.php",
+        "text": {
+          "EN": "Demo",
+          "DE": "Demo"
+        }
+      },
+      "technologies": ["HTML", "CSS", "jQuery", "JS", "PHP", "MySQL"]
     },
     {
-        "headline": {
-            "EN": "MA Thesis Project: E-Test Generator",
-            "DE": "Studienprojekt: Web-based Mechanisms for E-Learner Tracking"
-        },
-        "years": [2015],
-        "image": {
-            "src": "images/logo_etests_compressed.png",
-            "test": {
-                "EN": "Logo E-Test Generator",
-                "DE": "Logo E-Test Generator"
-            }
-        },
+      "headline": {
+        "EN": "MA Thesis Project: E-Test Generator",
+        "DE": "Masterarbeitsprojekt: E-Test Generator"
+      },
+      "years": [2015],
+      "image": {
+        "src": "images/logo_etests_compressed.png",
+        "test": {
+          "EN": "Logo E-Test Generator",
+          "DE": "Logo E-Test Generator"
+        }
+      },
+      "text": {
+        "EN": "The objective of my Master's thesis project was the development of a Web application which allows its users to create and store different kinds of interactive tests in a database. With the help of the application, dynamic multiple-choice tests, crosswords and drag-and-drop tests can be generated, stored, edited and, last but not least, run in the browser. The functionality of the generator is mainly implemented in JavaScript/jQuery, while the back end makes use of PHP and MySQL to store the test data.",
+        "DE": "Meine Masterarbeit hatte die Entwicklung einer Webanwendung zum Ziel, mit der man verschiedene Formen von interaktiven Tests in einer Datenbank speichern und verwalten kann. Mit dem Programm können dynamische Multiple-Choice Tests, Kreuzworträtsel und Drag-and-Drop-Tests im Browser generiert, gespeichert, bearbeitet und schließlich auch ausgeführt werden. Die Funktionalität des Generators wurde dabei hauptsächlich in JavaScript/jQuery implementiert, das Back-End zum Speichern der Daten verwendet PHP und MySQL."
+      },
+      "link": {
+        "url": "https://github.com/JuliaNeumann/e_tests",
         "text": {
-            "EN": "The objective of my Master&#39;s thesis project was the development of a Web application which allows its users to create and store different kinds of interactive tests in a database. With the help of the application, dynamic multiple-choice tests, crosswords and drag-and-drop tests can be generated, stored, edited and, last but not least, run in the browser. The functionality of the generator is mainly implemented in JavaScript/jQuery, while the back end makes use of PHP and MySQL to store the test data.",
-            "DE": "Meine Masterarbeit hatte die Entwicklung einer Webanwendung zum Ziel, mit der man verschiedene Formen von interaktiven Tests in einer Datenbank speichern und verwalten kann. Mit dem Programm können dynamische Multiple-Choice Tests, Kreuzworträtsel und Drag-and-Drop-Tests im Browser generiert, gespeichert, bearbeitet und schließlich auch ausgeführt werden. Die Funktionalität des Generators wurde dabei hauptsächlich in JavaScript/jQuery implementiert, das Back-End zum Speichern der Daten verwendet PHP und MySQL."
-        },
-        "link": {
-            "url": "https://github.com/JuliaNeumann/e_tests",
-            "text": {
-                "EN": "Github",
-                "DE": "Github"
-            }
-        },
-        "technologies": [
-            "HTML",
-            "CSS",
-            "jQuery",
-            "JS",
-            "PHP",
-            "MySQL"
-        ]
+          "EN": "Github",
+          "DE": "Github"
+        }
+      },
+      "technologies": ["HTML", "CSS", "jQuery", "JS", "PHP", "MySQL"]
     },
     {
-        "headline": {
-            "EN": "Virtual Center for Teacher Training",
-            "DE": "Virtuelles Zentrum für Lehrerbildung (VZL)"
-        },
-        "years": [2014, 2015],
+      "headline": {
+        "EN": "Virtual Center for Teacher Training",
+        "DE": "Virtuelles Zentrum für Lehrerbildung (VZL)"
+      },
+      "years": [2014, 2015],
+      "text": {
+        "EN": "The Virtual Center for Teacher Training is an online platform run by the Philipps-University Marburg, which offers on-the-job training for teachers. As a front end and back end developer, I am currently in charge of the technical advancement of this project. One of my main tasks is the refurbishment of the different types of interactive exercises offered to the learners.",
+        "DE": "Das Virtuelle Zentrum für Lehrerbildung ist eine Online-Plattform, die Weiterbildungskurse für LehrerInnen anbietet und von der Philipps-Universität Marburg betreut wird. Als Front-End- und Back-End-Entwicklerin bin ich in diesem Projekt derzeit für die technische Weiterentwicklung verantwortlich. Ein Schwerpunkt liegt dabei auf der Neuimplementierung der verschiedenen Arten interaktiver Übungen, die den Lernern angeboten werden."
+      },
+      "link": {
+        "url": "http://vzl.online.uni-marburg.de/welcome.php",
         "text": {
-            "EN": "The Virtual Center for Teacher Training is an online platform run by the Philipps-University Marburg, which offers on-the-job training for teachers. As a front end and back end developer, I am currently in charge of the technical advancement of this project. One of my main tasks is the refurbishment of the different types of interactive exercises offered to the learners.",
-            "DE": "Das Virtuelle Zentrum für Lehrerbildung ist eine Online-Plattform, die Weiterbildungskurse für LehrerInnen anbietet und von der Philipps-Universität Marburg betreut wird. Als Front-End- und Back-End-Entwicklerin bin ich in diesem Projekt derzeit für die technische Weiterentwicklung verantwortlich. Ein Schwerpunkt liegt dabei auf der Neuimplementierung der verschiedenen Arten interaktiver Übungen, die den Lernern angeboten werden."
-        },
-        "link": {
-            "url": "http://vzl.online.uni-marburg.de/welcome.php",
-            "text": {
-                "EN": "Website",
-                "DE": "Website"
-            }
-        },
-        "technologies": [
-            "HTML",
-            "CSS",
-            "jQuery",
-            "JS",
-            "PHP",
-            "MySQL"
-        ]
+          "EN": "Website",
+          "DE": "Website"
+        }
+      },
+      "technologies": ["HTML", "CSS", "jQuery", "JS", "PHP", "MySQL"]
     },
     {
-        "headline": {
-            "EN": "Portfolio Website",
-            "DE": "Bewerbungswebsite"
-        },
-        "years": [2015,  2020],
-        "image": {
-            "src": "",
-            "text": {
-                "EN": "",
-                "DE": ""
-            }
-        },
+      "headline": {
+        "EN": "Portfolio Website",
+        "DE": "Bewerbungswebsite"
+      },
+      "years": [2020],
+      "image": {
+        "src": "",
         "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "link": {
-            "url": "https://github.com/JuliaNeumann/JuliaNeumann.github.io",
-            "text": {
-                "EN": "Github",
-                "DE": "Github"
-            }
-        },
-        "technologies": [
-            "HTML",
-            "Knockout",
-            "SCSS",
-            "React",
-            "JS"
-        ]
+          "EN": "",
+          "DE": ""
+        }
+      },
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "link": {
+        "url": "https://github.com/JuliaNeumann/JuliaNeumann.github.io",
+        "text": {
+          "EN": "Github",
+          "DE": "Github"
+        }
+      },
+      "technologies": ["HTML", "SCSS", "React", "JS"]
     },
     {
-        "headline": {
-            "EN": "Quiz App",
-            "DE": "Quiz App"
-        },
-        "years": [],
-        "image": {
-            "src": "",
-            "text": {
-                "EN": "",
-                "DE": ""
-            }
-        },
+      "headline": {
+        "EN": "Quiz App",
+        "DE": "Quiz App"
+      },
+      "years": [],
+      "image": {
+        "src": "",
         "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "link": {
-            "url": "https://github.com/JuliaNeumann/quiz_app",
-            "text": {
-                "EN": "Github",
-                "DE": "Github"
-            }
-        },
-        "technologies": [
-            "Vue",
-            "Webpack",
-            "Angular",
-            "HTML",
-            "CSS",
-            "JS"
-        ]
+          "EN": "",
+          "DE": ""
+        }
+      },
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "link": {
+        "url": "https://github.com/JuliaNeumann/quiz_app",
+        "text": {
+          "EN": "Github",
+          "DE": "Github"
+        }
+      },
+      "technologies": ["Vue", "Webpack", "Angular", "HTML", "CSS", "JS"]
     },
     {
-        "headline": {
-            "EN": "Event Planner (WordPress Plugin)",
-            "DE": "Event Planner (WordPress Plugin)"
-        },
-        "years": [],
-        "image": {
-            "src": "",
-            "text": {
-                "EN": "",
-                "DE": ""
-            }
-        },
+      "headline": {
+        "EN": "Event Planner (WordPress Plugin)",
+        "DE": "Event Planner (WordPress Plugin)"
+      },
+      "years": [],
+      "image": {
+        "src": "",
         "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "link": {
-            "url": "https://github.com/JuliaNeumann/event-planner-plugin",
-            "text": {
-                "EN": "Github",
-                "DE": "Github"
-            }
-        },
-        "technologies": [
-            "PHP",
-            "MySQL",
-            "WordPress",
-            "HTML",
-            "Less",
-            "Vue",
-            "JS",
-            "TestCafé",
-            "Webpack"
-        ]
+          "EN": "",
+          "DE": ""
+        }
+      },
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "link": {
+        "url": "https://github.com/JuliaNeumann/event-planner-plugin",
+        "text": {
+          "EN": "Github",
+          "DE": "Github"
+        }
+      },
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "WordPress",
+        "HTML",
+        "Less",
+        "Vue",
+        "JS",
+        "TestCafé",
+        "Webpack"
+      ]
     },
     {
-        "headline": {
-            "EN": "NLP Exercises",
-            "DE": "NLP Übungen"
-        },
-        "years": [],
-        "image": {
-            "src": "",
-            "text": {
-                "EN": "",
-                "DE": ""
-            }
-        },
+      "headline": {
+        "EN": "NLP Exercises",
+        "DE": "NLP Übungen"
+      },
+      "years": [],
+      "image": {
+        "src": "",
         "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "link": {
-            "url": "https://github.com/JuliaNeumann/nltk_book_exercises",
-            "text": {
-                "EN": "Github",
-                "DE": "Github"
-            }
-        },
-        "technologies": [
-            "Python"
-        ]
+          "EN": "",
+          "DE": ""
+        }
+      },
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "link": {
+        "url": "https://github.com/JuliaNeumann/nltk_book_exercises",
+        "text": {
+          "EN": "Github",
+          "DE": "Github"
+        }
+      },
+      "technologies": ["Python"]
     },
     {
-        "headline": {
-            "EN": "Random Time",
-            "DE": "Random Time"
-        },
-        "years": [],
-        "image": {
-            "src": "",
-            "text": {
-                "EN": "",
-                "DE": ""
-            }
-        },
+      "headline": {
+        "EN": "Random Time",
+        "DE": "Random Time"
+      },
+      "years": [],
+      "image": {
+        "src": "",
         "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "link": {
-            "url": "https://github.com/JuliaNeumann/randomTime",
-            "text": {
-                "EN": "Github",
-                "DE": "Github"
-            }
-        },
-        "technologies": [
-            "PostgreSQL",
-            "HTML",
-            "Vue",
-            "JS",
-            "Express",
-            "Jest",
-            "Docker"
-        ]
+          "EN": "",
+          "DE": ""
+        }
+      },
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "link": {
+        "url": "https://github.com/JuliaNeumann/randomTime",
+        "text": {
+          "EN": "Github",
+          "DE": "Github"
+        }
+      },
+      "technologies": [
+        "PostgreSQL",
+        "HTML",
+        "Vue",
+        "JS",
+        "Express",
+        "Jest",
+        "Docker"
+      ]
     },
     {
-        "headline": {
-            "EN": "Frontend Components for a Retail Website",
-            "DE": "Frontend-Komponenten für eine Retail Website"
-        },
-        "years": [2015, 2016, 2017],
-        "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "technologies": [
-            "Jade/Pug",
-            "Less",
-            "JS",
-            "jQuery",
-            "Mocha/Chai",
-            "grunt"
-        ]
-    },
-    ,
-    {
-        "headline": {
-            "EN": "Flyer Web App (SPA)",
-            "DE": "Flyer Web App (SPA)"
-        },
-        "years": [2017, 2018],
-        "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "technologies": [
-            "Jade/Pug",
-            "Less",
-            "JS",
-            "jQuery",
-            "Mocha/Chai",
-            "grunt"
-        ]
+      "headline": {
+        "EN": "Frontend Components for a Retail Website",
+        "DE": "Frontend-Komponenten für eine Retail Website"
+      },
+      "years": [2015, 2016, 2017],
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "technologies": [
+        "Jade/Pug",
+        "Less",
+        "JS",
+        "jQuery",
+        "Mocha/Chai",
+        "grunt"
+      ]
     },
     {
-        "headline": {
-            "EN": "Online Shop",
-            "DE": "Online Shop"
-        },
-        "years": [2018, 2019, 2020],
-        "text": {
-            "EN": "",
-            "DE": ""
-        },
-        "technologies": [
-            "Vue",
-            "Nuxt",
-            "Less",
-            "JS",
-            "Java",
-            "SpringBoot",
-            "JUnit",
-            "Cucumber",
-            "Docker",
-            "MySQL",
-            "Redis",
-            "TypeScript",
-            "Jest",
-            "TestCafé",
-            "Webpack",
-            "gradle"
-        ]
+      "headline": {
+        "EN": "Flyer Web App (SPA)",
+        "DE": "Flyer Web App (SPA)"
+      },
+      "years": [2017, 2018],
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "technologies": [
+        "Jade/Pug",
+        "Less",
+        "JS",
+        "jQuery",
+        "Mocha/Chai",
+        "grunt"
+      ]
+    },
+    {
+      "headline": {
+        "EN": "Online Shop",
+        "DE": "Online Shop"
+      },
+      "years": [2018, 2019, 2020],
+      "text": {
+        "EN": "",
+        "DE": ""
+      },
+      "technologies": [
+        "Vue",
+        "Nuxt",
+        "Less",
+        "JS",
+        "Java",
+        "SpringBoot",
+        "JUnit",
+        "Cucumber",
+        "Docker",
+        "MySQL",
+        "Redis",
+        "TypeScript",
+        "Jest",
+        "TestCafé",
+        "Webpack",
+        "gradle"
+      ]
     }
-]
+  ]
+}

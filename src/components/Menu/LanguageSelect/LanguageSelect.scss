@@ -3,8 +3,11 @@
 .language-select {
     padding: 7px;
     position: relative;
+    min-width: 36px;
 
-    &--current {
+    &--current,
+    &:hover,
+    &:focus {
         font-weight: bold;
     }
 

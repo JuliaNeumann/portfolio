@@ -1,0 +1,45 @@
+@import "../../../styles/variables";
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/components/card.sass";
+@import "bulma/sass/elements/tag.sass";
+
+.project-card {
+
+    &__card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        min-height: 118px;
+        align-items: flex-start;
+    }
+
+    &__headline {
+        text-transform: uppercase;
+    }
+
+    &__content {
+        flex-grow: 1;
+    }
+    &__tech {
+        justify-content: flex-start;
+        flex-basis: 60%;
+    }
+
+    &__tech-list {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__link,
+    &__link:visited {
+        color: $primary;
+    }
+
+    &__link:hover,
+    &__link:focus {
+        color: $primary-dark;
+    }
+}

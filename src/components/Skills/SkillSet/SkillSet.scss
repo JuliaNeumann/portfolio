@@ -3,11 +3,7 @@
 @import "bulma/sass/elements/box.sass";
 
 .skill-set {
-    text-align: left;
-    
     &__headline {
-        font-family: 'Handlee', cursive;
         text-transform: uppercase;
-        color: $primary;
     }
 }
