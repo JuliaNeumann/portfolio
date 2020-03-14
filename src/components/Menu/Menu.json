@@ -5,25 +5,20 @@
     },
     "items": [
         {
-            "route": "/resume",
-            "text": {
-                "EN": "Resume",
-                "DE": "Lebenslauf"
-            }
-        },
-        {
             "route": "/skills",
             "text": {
                 "EN": "Skills",
                 "DE": "Fähigkeiten"
-            }
+            },
+            "icon": "wrench"
         },
         {
             "route": "/projects",
             "text": {
                 "EN": "Projects",
                 "DE": "Projekte"
-            }
+            },
+            "icon": "laptop-code"
         }
     ]
 }

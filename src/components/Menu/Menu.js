@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import LanguageSelect from "../LanguageSelect/LanguageSelect";
+import LanguageSelect from "./LanguageSelect/LanguageSelect";
 
 import "./Menu.scss";
 
@@ -40,9 +40,7 @@ class Menu extends React.Component {
               title={data.home[this.props.lang]}
               exact={true}
             >
-              <span className="icon">
-                <i className="fas fa-home"></i>
-              </span>
+              <i className="fas fa-home"></i>
             </NavLink>
 
             <button

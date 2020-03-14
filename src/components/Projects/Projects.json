@@ -188,7 +188,8 @@
             "Less",
             "Vue",
             "JS",
-            "TestCafé"
+            "TestCafé",
+            "Webpack"
         ]
     },
     {
@@ -255,8 +256,8 @@
     },
     {
         "headline": {
-            "EN": "Frontend Components for Retail Website",
-            "DE": "Frontend-Komponenten für Retail Website"
+            "EN": "Frontend Components for a Retail Website",
+            "DE": "Frontend-Komponenten für eine Retail Website"
         },
         "years": [2015, 2016, 2017],
         "text": {
@@ -267,7 +268,9 @@
             "Jade/Pug",
             "Less",
             "JS",
-            "jQuery"
+            "jQuery",
+            "Mocha/Chai",
+            "grunt"
         ]
     },
     ,
@@ -285,7 +288,9 @@
             "Jade/Pug",
             "Less",
             "JS",
-            "jQuery"
+            "jQuery",
+            "Mocha/Chai",
+            "grunt"
         ]
     },
     {
@@ -312,7 +317,9 @@
             "Redis",
             "TypeScript",
             "Jest",
-            "TestCafé"
+            "TestCafé",
+            "Webpack",
+            "gradle"
         ]
     }
 ]

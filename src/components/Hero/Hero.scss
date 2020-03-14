@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/layout/hero.sass";
+
+.hero {
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__icon {
+        margin-right: 20px;
+    }
+}

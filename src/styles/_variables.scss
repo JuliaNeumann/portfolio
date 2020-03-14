@@ -1,8 +1,15 @@
 // Customize Bulma
 $primary: #31708F;
+$scheme-main: #f8f8f8;
+
 $navbar-item-color: $primary;
 $navbar-item-hover-color: white;
 $navbar-item-hover-background-color: $primary;
 $navbar-item-active-color: white;
 $navbar-item-active-background-color: $primary;
-$scheme-main: #f8f8f8;
+
+$content-heading-color: $primary;
+$content-heading-weight: 500;
+
+$title-family: 'Handlee', cursive;
+$title-color: $primary;
