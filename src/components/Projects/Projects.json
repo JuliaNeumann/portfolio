@@ -6,13 +6,7 @@
         "DE": "Studienprojekt: Web-based Mechanisms for E-Learner Tracking (MELT)"
       },
       "years": [2014],
-      "image": {
-        "src": "images/melt_logo_compressed.png",
-        "text": {
-          "DE": "Logo MELT Projekt",
-          "EN": "Logo MELT Project"
-        }
-      },
+      "category": "educational",
       "text": {
         "EN": "In this project, which was completed within one term together with two fellow students, a number of mechanisms for tracking learners' interactions with a learning platform were implemented. Different JavaScript technologies were used to, for example, keep track of the order and duration of page visits. The learning platform which was developed for this purpose, some simple visualizations of a fraction of the collected data and the project presentation can be viewed at the link below.",
         "DE": "In diesem Projekt, das in Zusammenarbeit mit zwei Kommilitonen im Laufe eines Semesters entstand, wurden verschiedene Mechanismen implementiert, mit denen nachvollzogen werden kann, wie Lerner mit einer Lernplattform interagieren. Dabei wurden verschiedene JavaScript-Techniken eingesetzt, um z.B. die Reihenfolge und Dauer des Besuchs der einzelnen Seiten festzuhalten. Die zu diesem Zweck entwickelte Lernplattform, ein paar einfache Visualisierungen eines Bruchteils der gesammelten Daten sowie die Projektpräsentation können unter untenstehendem Link angesehen werden."
@@ -32,13 +26,7 @@
         "DE": "Masterarbeitsprojekt: E-Test Generator"
       },
       "years": [2015],
-      "image": {
-        "src": "images/logo_etests_compressed.png",
-        "test": {
-          "EN": "Logo E-Test Generator",
-          "DE": "Logo E-Test Generator"
-        }
-      },
+      "category": "educational",
       "text": {
         "EN": "The objective of my Master's thesis project was the development of a Web application which allows its users to create and store different kinds of interactive tests in a database. With the help of the application, dynamic multiple-choice tests, crosswords and drag-and-drop tests can be generated, stored, edited and, last but not least, run in the browser. The functionality of the generator is mainly implemented in JavaScript/jQuery, while the back end makes use of PHP and MySQL to store the test data.",
         "DE": "Meine Masterarbeit hatte die Entwicklung einer Webanwendung zum Ziel, mit der man verschiedene Formen von interaktiven Tests in einer Datenbank speichern und verwalten kann. Mit dem Programm können dynamische Multiple-Choice Tests, Kreuzworträtsel und Drag-and-Drop-Tests im Browser generiert, gespeichert, bearbeitet und schließlich auch ausgeführt werden. Die Funktionalität des Generators wurde dabei hauptsächlich in JavaScript/jQuery implementiert, das Back-End zum Speichern der Daten verwendet PHP und MySQL."
@@ -58,9 +46,10 @@
         "DE": "Virtuelles Zentrum für Lehrerbildung (VZL)"
       },
       "years": [2014, 2015],
+      "category": "on-the-job",
       "text": {
-        "EN": "The Virtual Center for Teacher Training is an online platform run by the Philipps-University Marburg, which offers on-the-job training for teachers. As a front end and back end developer, I am currently in charge of the technical advancement of this project. One of my main tasks is the refurbishment of the different types of interactive exercises offered to the learners.",
-        "DE": "Das Virtuelle Zentrum für Lehrerbildung ist eine Online-Plattform, die Weiterbildungskurse für LehrerInnen anbietet und von der Philipps-Universität Marburg betreut wird. Als Front-End- und Back-End-Entwicklerin bin ich in diesem Projekt derzeit für die technische Weiterentwicklung verantwortlich. Ein Schwerpunkt liegt dabei auf der Neuimplementierung der verschiedenen Arten interaktiver Übungen, die den Lernern angeboten werden."
+        "EN": "The Virtual Center for Teacher Training was an online platform run by the Philipps-University Marburg, which offered on-the-job training for teachers. As a front end and back end developer, I was in charge of the technical advancement of this project. One of my main tasks was the refurbishment of the different types of interactive exercises offered to the learners.",
+        "DE": "Das Virtuelle Zentrum für Lehrerbildung war eine Online-Plattform, die Weiterbildungskurse für LehrerInnen angeboten hat und von der Philipps-Universität Marburg betreut wurde. Als Front-End- und Back-End-Entwicklerin war ich in diesem Projekt für die technische Weiterentwicklung verantwortlich. Ein Schwerpunkt lag dabei auf der Neuimplementierung der verschiedenen Arten interaktiver Übungen, die den Lernern angeboten wurden."
       },
       "link": {
         "url": "http://vzl.online.uni-marburg.de/welcome.php",
@@ -77,16 +66,10 @@
         "DE": "Bewerbungswebsite"
       },
       "years": [2020],
-      "image": {
-        "src": "",
-        "text": {
-          "EN": "",
-          "DE": ""
-        }
-      },
+      "category": "side-project",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "Not much to say here - it's the page you are currently looking at. It was implemented using React (CRA) and SCSS.",
+        "DE": "Hierzu muss nicht viel gesagt werden - Sie schauen sich die Seite schließlich gerade an. Sie wurde mit React (CRA) und SCSS implementiert."
       },
       "link": {
         "url": "https://github.com/JuliaNeumann/JuliaNeumann.github.io",
@@ -102,17 +85,11 @@
         "EN": "Quiz App",
         "DE": "Quiz App"
       },
-      "years": [],
-      "image": {
-        "src": "",
-        "text": {
-          "EN": "",
-          "DE": ""
-        }
-      },
+      "years": [2017, 2018, 2019],
+      "category": "educational",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "This is a small quiz app which I created for the purpose of helping me try out different frontend technologies. The baseline version was written using plain HTML, CSS and JS, and some varieties of it using different other technologies (at the moment: Angular, Vue, Webpack) are showcased in the different branches of the repo.",
+        "DE": "Hierbei handelt es sich um eine kleine Quiz App, die ich mit dem Ziel erstellt habe, verschiedene Frontend Technologien ausprobieren zu können. Die Basis-Version wurde in einfachem HTML, CSS und JS implementiert, und die verschiedenen Branches im Repo zeigen Implementierungen mit verschiedenen andere Technologien (momentan: Angular, Vue, Webpack)."
       },
       "link": {
         "url": "https://github.com/JuliaNeumann/quiz_app",
@@ -128,17 +105,11 @@
         "EN": "Event Planner (WordPress Plugin)",
         "DE": "Event Planner (WordPress Plugin)"
       },
-      "years": [],
-      "image": {
-        "src": "",
-        "text": {
-          "EN": "",
-          "DE": ""
-        }
-      },
+      "years": [2018, 2019, 2020],
+      "category": "side-project",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "As part of maintaining and improving the website and internal members' platform of my church, I was at one point searching for a WordPress plugin which would allow us to collectively plan services and other events. As I didn't find a good solution, I ended up writing one myself. It basically provides a table with cells that can be edited by users, plus some extra features (automatic creation of a teaser for the next event, grouping of rows, filtering etc.).",
+        "DE": "Da ich die Website und die interne Mitarbeiter-Plattform meiner Gemeinde betreue, war ich vor einer Weile auf der Suche nach einem WordPress Plugin, mit dem wir gemeinsam Gottesdienste und andere Veranstaltungen planen wollten. Weil ich keine gute Lösung finden konnte, habe ich am Ende selbst eine implementiert. Das Plugin besteht im Wesentlichen aus einer Tabelle, deren Zellen von den Nutzern editiert werden können, plus einigen zusätzlichen Features (automatisches Erstellen eines Teasers für die nächste Veranstaltung, Gruppieren von Zeilen, Filter etc.)."
       },
       "link": {
         "url": "https://github.com/JuliaNeumann/event-planner-plugin",
@@ -164,17 +135,11 @@
         "EN": "NLP Exercises",
         "DE": "NLP Übungen"
       },
-      "years": [],
-      "image": {
-        "src": "",
-        "text": {
-          "EN": "",
-          "DE": ""
-        }
-      },
+      "years": [2017, 2018],
+      "category": "educational",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "With Linguistics being my first field of study, and the one that also led me to programming in the end, I have naturally always been initerested in natural language processing. This project shows my solutions to some of the exercises of the popular book 'Natural Language Processing with Python'.",
+        "DE": "Aufgrund der Tatsache, dass die Linguistik nicht nur mein erstes Studienfach was, sondern mich am Ende auch zum Programmieren gebracht hat, habe ich mich natürlicherweise schon immer für Sprachverarbeitung interessiert. Dieses Projekt zeigt meine Lösungen für einige der Übungen aus dem beliebten Buch 'Natural Language Processing with Python'."
       },
       "link": {
         "url": "https://github.com/JuliaNeumann/nltk_book_exercises",
@@ -190,17 +155,11 @@
         "EN": "Random Time",
         "DE": "Random Time"
       },
-      "years": [],
-      "image": {
-        "src": "",
-        "text": {
-          "EN": "",
-          "DE": ""
-        }
-      },
+      "years": [2018],
+      "category": "side-project",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "This is a simple time scheduling app built with Vue, Express and PostgreSQL. It allows you to specify which activities you want to spend time on, optionally weighed by percentage, and creates a randomized schedule for you.",
+        "DE": "Hierbei handelt es sich um eine einfache Zeitplanungs-App basierend auf Vue, Express und PostgreSQL. Man kann Aktivitäten anlegen, mit denen man die gegebene Zeit füllen will, sie optional mit Gewichtungen versehen, und sich daraus einen zufallsbasierten Zeitplan erstellen lassen."
       },
       "link": {
         "url": "https://github.com/JuliaNeumann/randomTime",
@@ -221,13 +180,14 @@
     },
     {
       "headline": {
-        "EN": "Frontend Components for a Retail Website",
-        "DE": "Frontend-Komponenten für eine Retail Website"
+        "EN": "Frontend Components for Retail Websites",
+        "DE": "Frontend-Komponenten für Retail Webseiten"
       },
       "years": [2015, 2016, 2017],
+      "category": "on-the-job",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "In this project, I was part of a team building frontend components for the retail websites of a large discounter. As the components were used in a lot of different scenarios and rolled out in a number of countries, they had to be highly flexible, as well as well-structured, accessible and scalable.",
+        "DE": "In diesem Projekt war ich Teil eines Teams, dass an der Erstellung von Frontend-Komponenten für die Retail Webseiten eines großen Discounters gearbeitet hat. Da die Komponenten in vielen unterschiedlichen Szenarien benutzt und in etlichen Ländern ausgerollt wurden, mussten sie sowohl hochflexibel, als auch gut strukturiert, barrierefrei und skalierbar sein."
       },
       "technologies": [
         "Jade/Pug",
@@ -244,9 +204,10 @@
         "DE": "Flyer Web App (SPA)"
       },
       "years": [2017, 2018],
+      "category": "on-the-job",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "The big challenge in this project was that the customer demanded a highly interactive single-page application for viewing leaflets to be built without the use of a frontend framework. My team ended up building our own version of an MVC-based application design using Vanilla JS (with some sprinkles of jQuery).",
+        "DE": "Die große Herausforderung in diesem Projekt bestand darin, dass auf Wunsch des Kunden eine hochgradig interaktive Single-Page-Application zum Anschauen von Prospekten ohne Verwendung eines Frontend Frameworks erstellt werden sollte. Mit meinem Team haben wir daraufhin unsere eigene Version eines MVC-basierten Applikations-Designs mit Vanilla JS (und ein paar Prisen jQuery) umgesetzt."
       },
       "technologies": [
         "Jade/Pug",
@@ -263,9 +224,10 @@
         "DE": "Online Shop"
       },
       "years": [2018, 2019, 2020],
+      "category": "on-the-job",
       "text": {
-        "EN": "",
-        "DE": ""
+        "EN": "Being part of a team which is responsible for the end-to-end implementation of part of an online shop, I am currently working as a fullstack developer, which has enabled me to grow my backend experience and apply my frontend knowledge to new challenges, along with learning a whole bunch of new technologies.",
+        "DE": "Als Teil eines Teams, dass einen Bereich eines Online-Shops End-to-End umsetzt, arbeite ich derzeit als Fullstack Entwicklerin, wodurch ich meine Erfahrungen im Backend-Bereich ausbauen und meine Kenntnisse im Frontend auf neue Herausforderungen anwenden konnte - und dabei nebenbei eine ganze Reihe neuer Technologien lernen durfte."
       },
       "technologies": [
         "Vue",
