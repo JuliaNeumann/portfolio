@@ -2,14 +2,14 @@
   "items": [
     {
       "headline": {
-        "EN": "University Project: Web-based Mechanisms for E-Learner Tracking (MELT)",
-        "DE": "Studienprojekt: Web-based Mechanisms for E-Learner Tracking (MELT)"
+        "EN": "Web-based Mechanisms for E-Learner Tracking (MELT)",
+        "DE": "Web-based Mechanisms for E-Learner Tracking (MELT)"
       },
       "years": [2014],
       "category": "educational",
       "text": {
-        "EN": "In this project, which was completed within one term together with two fellow students, a number of mechanisms for tracking learners' interactions with a learning platform were implemented. Different JavaScript technologies were used to, for example, keep track of the order and duration of page visits. The learning platform which was developed for this purpose, some simple visualizations of a fraction of the collected data and the project presentation can be viewed at the link below.",
-        "DE": "In diesem Projekt, das in Zusammenarbeit mit zwei Kommilitonen im Laufe eines Semesters entstand, wurden verschiedene Mechanismen implementiert, mit denen nachvollzogen werden kann, wie Lerner mit einer Lernplattform interagieren. Dabei wurden verschiedene JavaScript-Techniken eingesetzt, um z.B. die Reihenfolge und Dauer des Besuchs der einzelnen Seiten festzuhalten. Die zu diesem Zweck entwickelte Lernplattform, ein paar einfache Visualisierungen eines Bruchteils der gesammelten Daten sowie die Projektpräsentation können unter untenstehendem Link angesehen werden."
+        "EN": "In this university project, which was completed within one term together with two fellow students, a number of mechanisms for tracking learners' interactions with a learning platform were implemented. Different JavaScript technologies were used to, for example, keep track of the order and duration of page visits. The learning platform which was developed for this purpose, some simple visualizations of a fraction of the collected data and the project presentation can be viewed at the link below.",
+        "DE": "In diesem Studienprojekt, das in Zusammenarbeit mit zwei Kommilitonen im Laufe eines Semesters entstand, wurden verschiedene Mechanismen implementiert, mit denen nachvollzogen werden kann, wie Lerner mit einer Lernplattform interagieren. Dabei wurden verschiedene JavaScript-Techniken eingesetzt, um z.B. die Reihenfolge und Dauer des Besuchs der einzelnen Seiten festzuhalten. Die zu diesem Zweck entwickelte Lernplattform, ein paar einfache Visualisierungen eines Bruchteils der gesammelten Daten sowie die Projektpräsentation können unter untenstehendem Link angesehen werden."
       },
       "link": {
         "url": "http://linguistics.online.uni-marburg.de/free/information/student_projects/learner_tracking_project/index.php",
@@ -50,13 +50,6 @@
       "text": {
         "EN": "The Virtual Center for Teacher Training was an online platform run by the Philipps-University Marburg, which offered on-the-job training for teachers. As a front end and back end developer, I was in charge of the technical advancement of this project. One of my main tasks was the refurbishment of the different types of interactive exercises offered to the learners.",
         "DE": "Das Virtuelle Zentrum für Lehrerbildung war eine Online-Plattform, die Weiterbildungskurse für LehrerInnen angeboten hat und von der Philipps-Universität Marburg betreut wurde. Als Front-End- und Back-End-Entwicklerin war ich in diesem Projekt für die technische Weiterentwicklung verantwortlich. Ein Schwerpunkt lag dabei auf der Neuimplementierung der verschiedenen Arten interaktiver Übungen, die den Lernern angeboten wurden."
-      },
-      "link": {
-        "url": "http://vzl.online.uni-marburg.de/welcome.php",
-        "text": {
-          "EN": "Website",
-          "DE": "Website"
-        }
       },
       "technologies": ["HTML", "CSS", "jQuery", "JS", "PHP", "MySQL"]
     },

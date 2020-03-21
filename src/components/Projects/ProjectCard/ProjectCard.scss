@@ -14,10 +14,22 @@
     &__header {
         min-height: 118px;
         align-items: flex-start;
+        flex-direction: column;
     }
 
     &__headline {
         text-transform: uppercase;
+        margin: 0;
+
+        &:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+
+    &__sub-headline {
+        text-align: right;
+        width: 100%;
+        padding: 0 $card-header-padding $card-header-padding;
     }
 
     &__content {
