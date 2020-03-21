@@ -34,7 +34,7 @@
 
     &__category {
         border: 1px solid $primary;
-        margin-right: 5px;
+        margin-right: $tag-distance;
     }
 
     &__content {

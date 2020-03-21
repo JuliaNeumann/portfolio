@@ -3,6 +3,8 @@
 @import "bulma/sass/components/navbar.sass";
 
 .menu {
+    border-bottom: 1px solid $primary;
+
     & &__home-link.navbar-item {
         &:hover,
         &:focus {
@@ -40,10 +42,4 @@
     &__item {
         text-decoration: none;
     }
-}
-
-// Bulma overrides 
-
-.navbar {
-	border-bottom: 1px solid $primary;
 }

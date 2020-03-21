@@ -18,7 +18,9 @@ function ProjectCard(props) {
             {project.headline[language]}
           </h2>
           <small className="project-card__sub-headline">
-            <span className="project-card__category tag is-white">{props.category[language]}</span>
+            <span className="project-card__category tag is-white">
+              {props.category[language]}
+            </span>
             {time}
           </small>
         </header>

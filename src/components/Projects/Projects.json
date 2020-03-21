@@ -1,4 +1,10 @@
 {
+  "filters": {
+    "headline": {
+      "EN": "Filter by Technology:",
+      "DE": "Technologie-Filter:"
+    }
+  },
   "categories": {
     "educational": {
       "EN": "educational",
