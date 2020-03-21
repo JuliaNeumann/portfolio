@@ -1,4 +1,18 @@
 {
+  "categories": {
+    "educational": {
+      "EN": "educational",
+      "DE": "Lernen"
+    },
+    "job": {
+      "EN": "on the job",
+      "DE": "Arbeit"
+    },
+    "side": {
+      "EN": "side project",
+      "DE": "Nebenproject"
+    }
+  },
   "items": [
     {
       "headline": {
@@ -46,9 +60,9 @@
         "DE": "Virtuelles Zentrum für Lehrerbildung (VZL)"
       },
       "years": [2014, 2015],
-      "category": "on-the-job",
+      "category": "job",
       "text": {
-        "EN": "The Virtual Center for Teacher Training was an online platform run by the Philipps-University Marburg, which offered on-the-job training for teachers. As a front end and back end developer, I was in charge of the technical advancement of this project. One of my main tasks was the refurbishment of the different types of interactive exercises offered to the learners.",
+        "EN": "The Virtual Center for Teacher Training was an online platform run by the Philipps-University Marburg, which offered job training for teachers. As a front end and back end developer, I was in charge of the technical advancement of this project. One of my main tasks was the refurbishment of the different types of interactive exercises offered to the learners.",
         "DE": "Das Virtuelle Zentrum für Lehrerbildung war eine Online-Plattform, die Weiterbildungskurse für LehrerInnen angeboten hat und von der Philipps-Universität Marburg betreut wurde. Als Front-End- und Back-End-Entwicklerin war ich in diesem Projekt für die technische Weiterentwicklung verantwortlich. Ein Schwerpunkt lag dabei auf der Neuimplementierung der verschiedenen Arten interaktiver Übungen, die den Lernern angeboten wurden."
       },
       "technologies": ["HTML", "CSS", "jQuery", "JS", "PHP", "MySQL"]
@@ -59,7 +73,7 @@
         "DE": "Bewerbungswebsite"
       },
       "years": [2020],
-      "category": "side-project",
+      "category": "side",
       "text": {
         "EN": "Not much to say here - it's the page you are currently looking at. It was implemented using React (CRA) and SCSS.",
         "DE": "Hierzu muss nicht viel gesagt werden - Sie schauen sich die Seite schließlich gerade an. Sie wurde mit React (CRA) und SCSS implementiert."
@@ -99,7 +113,7 @@
         "DE": "Event Planner (WordPress Plugin)"
       },
       "years": [2018, 2019, 2020],
-      "category": "side-project",
+      "category": "side",
       "text": {
         "EN": "As part of maintaining and improving the website and internal members' platform of my church, I was at one point searching for a WordPress plugin which would allow us to collectively plan services and other events. As I didn't find a good solution, I ended up writing one myself. It basically provides a table with cells that can be edited by users, plus some extra features (automatic creation of a teaser for the next event, grouping of rows, filtering etc.).",
         "DE": "Da ich die Website und die interne Mitarbeiter-Plattform meiner Gemeinde betreue, war ich vor einer Weile auf der Suche nach einem WordPress Plugin, mit dem wir gemeinsam Gottesdienste und andere Veranstaltungen planen wollten. Weil ich keine gute Lösung finden konnte, habe ich am Ende selbst eine implementiert. Das Plugin besteht im Wesentlichen aus einer Tabelle, deren Zellen von den Nutzern editiert werden können, plus einigen zusätzlichen Features (automatisches Erstellen eines Teasers für die nächste Veranstaltung, Gruppieren von Zeilen, Filter etc.)."
@@ -128,7 +142,7 @@
         "EN": "NLP Exercises",
         "DE": "NLP Übungen"
       },
-      "years": [2017, 2018],
+      "years": [2016, 2017, 2018],
       "category": "educational",
       "text": {
         "EN": "With Linguistics being my first field of study, and the one that also led me to programming in the end, I have naturally always been initerested in natural language processing. This project shows my solutions to some of the exercises of the popular book 'Natural Language Processing with Python'.",
@@ -149,7 +163,7 @@
         "DE": "Random Time"
       },
       "years": [2018],
-      "category": "side-project",
+      "category": "side",
       "text": {
         "EN": "This is a simple time scheduling app built with Vue, Express and PostgreSQL. It allows you to specify which activities you want to spend time on, optionally weighed by percentage, and creates a randomized schedule for you.",
         "DE": "Hierbei handelt es sich um eine einfache Zeitplanungs-App basierend auf Vue, Express und PostgreSQL. Man kann Aktivitäten anlegen, mit denen man die gegebene Zeit füllen will, sie optional mit Gewichtungen versehen, und sich daraus einen zufallsbasierten Zeitplan erstellen lassen."
@@ -177,7 +191,7 @@
         "DE": "Frontend-Komponenten für Retail Webseiten"
       },
       "years": [2015, 2016, 2017],
-      "category": "on-the-job",
+      "category": "job",
       "text": {
         "EN": "In this project, I was part of a team building frontend components for the retail websites of a large discounter. As the components were used in a lot of different scenarios and rolled out in a number of countries, they had to be highly flexible, as well as well-structured, accessible and scalable.",
         "DE": "In diesem Projekt war ich Teil eines Teams, dass an der Erstellung von Frontend-Komponenten für die Retail Webseiten eines großen Discounters gearbeitet hat. Da die Komponenten in vielen unterschiedlichen Szenarien benutzt und in etlichen Ländern ausgerollt wurden, mussten sie sowohl hochflexibel, als auch gut strukturiert, barrierefrei und skalierbar sein."
@@ -197,7 +211,7 @@
         "DE": "Flyer Web App (SPA)"
       },
       "years": [2017, 2018],
-      "category": "on-the-job",
+      "category": "job",
       "text": {
         "EN": "The big challenge in this project was that the customer demanded a highly interactive single-page application for viewing leaflets to be built without the use of a frontend framework. My team ended up building our own version of an MVC-based application design using Vanilla JS (with some sprinkles of jQuery).",
         "DE": "Die große Herausforderung in diesem Projekt bestand darin, dass auf Wunsch des Kunden eine hochgradig interaktive Single-Page-Application zum Anschauen von Prospekten ohne Verwendung eines Frontend Frameworks erstellt werden sollte. Mit meinem Team haben wir daraufhin unsere eigene Version eines MVC-basierten Applikations-Designs mit Vanilla JS (und ein paar Prisen jQuery) umgesetzt."
@@ -217,7 +231,7 @@
         "DE": "Online Shop"
       },
       "years": [2018, 2019, 2020],
-      "category": "on-the-job",
+      "category": "job",
       "text": {
         "EN": "Being part of a team which is responsible for the end-to-end implementation of part of an online shop, I am currently working as a fullstack developer, which has enabled me to grow my backend experience and apply my frontend knowledge to new challenges, along with learning a whole bunch of new technologies.",
         "DE": "Als Teil eines Teams, dass einen Bereich eines Online-Shops End-to-End umsetzt, arbeite ich derzeit als Fullstack Entwicklerin, wodurch ich meine Erfahrungen im Backend-Bereich ausbauen und meine Kenntnisse im Frontend auf neue Herausforderungen anwenden konnte - und dabei nebenbei eine ganze Reihe neuer Technologien lernen durfte."

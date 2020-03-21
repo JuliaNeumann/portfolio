@@ -32,9 +32,15 @@
         padding: 0 $card-header-padding $card-header-padding;
     }
 
+    &__category {
+        border: 1px solid $primary;
+        margin-right: 5px;
+    }
+
     &__content {
         flex-grow: 1;
     }
+
     &__tech {
         justify-content: flex-start;
         flex-basis: 60%;

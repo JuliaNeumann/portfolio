@@ -63,7 +63,7 @@ class Menu extends React.Component {
                 return (
                   <NavLink
                     key={item.route}
-                    className="navbar-item"
+                    className="menu__item navbar-item"
                     to={item.route}
                     activeClassName="is-active"
                     onClick={this.close}

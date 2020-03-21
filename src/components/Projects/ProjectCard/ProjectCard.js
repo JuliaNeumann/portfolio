@@ -17,7 +17,10 @@ function ProjectCard(props) {
           <h2 className="project-card__headline card-header-title title is-4">
             {project.headline[language]}
           </h2>
-          <small className="project-card__sub-headline">{time}</small>
+          <small className="project-card__sub-headline">
+            <span className="project-card__category tag is-white">{props.category[language]}</span>
+            {time}
+          </small>
         </header>
         <div className="project-card__content card-content">
           {project.text[language]}

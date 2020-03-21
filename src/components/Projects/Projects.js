@@ -42,6 +42,7 @@ class Projects extends React.Component {
               <ProjectCard
                 key={item.headline.EN}
                 project={item}
+                category={data.categories[item.category]}
                 lang={this.props.lang}
               />
             );
