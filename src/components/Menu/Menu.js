@@ -37,7 +37,7 @@ class Menu extends React.Component {
               className="menu__home-link navbar-item"
               to="/"
               activeClassName="is-active"
-              title={data.home[this.props.lang]}
+              title={data.home.text[this.props.lang]}
               exact={true}
             >
               <i className="fas fa-home"></i>

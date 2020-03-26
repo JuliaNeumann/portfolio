@@ -6,7 +6,7 @@ function Hero(props) {
   const language = props.lang;
 
   return (
-    <section className="hero is-small">
+    <section className="hero is-small is-primary">
       <div className="hero-body">
         <div className="container">
           <h1 className="hero__title title">

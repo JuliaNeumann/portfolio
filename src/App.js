@@ -44,6 +44,11 @@ class App extends React.Component {
             );
           })}
           <Route path="/">
+            <Hero
+              lang={this.state.lang}
+              title={menuData.home.header}
+              icon={menuData.home.icon}
+            />
             <div className="container">
               <Home lang={this.state.lang} />
             </div>

@@ -2,30 +2,41 @@
 @import "bulma/sass/utilities/_all.sass";
 
 .home {
-    padding-top: 10px;
-
-    &__divider {
-        color: $primary;
-        margin: 3rem 10rem;
-    }
-
     &__title {
         text-transform: uppercase;
-        margin-top: 2.5rem;
+    }
 
-        &--right {
-            text-align: right;
+    &__intro {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: $primary;
+    }
+
+    &__box-wrapper {
+
+        @media only screen and (min-width: $tablet) {
+            &:not(:first-of-type) {
+                margin-top: -300px;
+            }
         }
     }
 
-    &__image-wrapper {
-        text-align: right;
+    &__column {
+        @media only screen and (min-width: $tablet) {
+            &--0 {
+                order: 1;
+            }
+
+            &--intro {
+                order: 2;
+            }
+        }
     }
 
-    &__image {
-        width: 100%;
-        max-width: 250px;
-        height: auto;
+    &__icon-wrapper {
+        text-align: center;
+        font-size: 3rem;
+        color: $primary;
     }
 
     &__links {

@@ -1,7 +1,14 @@
 {
     "home": {
-        "EN": "Home",
-        "DE": "Home"
+        "text": {
+            "EN": "Home",
+            "DE": "Home"
+        },
+        "header": {
+            "EN": "Welcome",
+            "DE": "Willkommen"
+        },
+        "icon": "code"
     },
     "items": [
         {
