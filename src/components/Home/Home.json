@@ -1,0 +1,58 @@
+{
+    "contactLinks": [
+        {
+            "text": {
+                "EN": "GitHub",
+                "DE": "GitHub"
+            },
+            "url": "https://github.com/JuliaNeumann"
+        },
+        {
+            "text": {
+                "EN": "LinkedIn",
+                "DE": "LinkedIn"
+            },
+            "url": "https://de.linkedin.com/in/jnjulianeumann"
+        }
+    ],
+    "intro": {
+        "EN": "Hey there, nice to have you here! I've built this small project to introduce myself to you, so let's not waste any time ...",
+        "DE": "Hallo, schön, dass Sie hier sind! Mit diesem kleinen Projekt möchte ich mich Ihnen kurz vorstellen, also auf geht's ..."
+    },
+    "main": [
+        {
+            "title": {
+                "EN": "Some hard facts first...",
+                "DE": "Zuerst die harten Fakten ..."
+            },
+            "body": {
+                "EN": "After falling in love with programming at the end of my not-so-very-technical Bachelor studies (linguistics & psychology), I chose a Master's program in 'Linguistics and Web Technology' at the University of Marburg, which I finished in 2015. I then started my career as a fullstack software engineer working on an e-learning platform before joining mgm technology partners, where I have been working as a frontend / fullstack developer for 4.5 years now.",
+                "DE": "Nachdem ich mich am Ende meines nicht so technischem Bachelor-Studiums (Sprachwissenschaft & Psychologie) in das Programmieren verliebt habe, habe ich mich für das Masterabschluss 'Linguistics and Web Technology' an der Universität Marburg entschieden, welches ich 2015 abgeschlossen habe. Danach habe ich meinen Berufsweg als Fullstack Software Engineer für eine E-Learning Plattform begonnen, bevor ich zu mgm technology partners gewechselt bin, wo ich nun seit 4,5 Jahren als Frontend / Fullstack Entwicklering tätig bin."
+            }
+        },
+        {
+            "title": {
+                "EN": "... plus some not so hard ones ...",
+                "DE": "... und einige nicht ganz harte ..."
+            },
+            "body": {
+                "EN": "Coming from a very different area of study, when I started to teach myself programming, it was like a whole new world opening up to me, and I was surprised to realize it fit me perfectly. I just love the puzzle-solving, abstract thinking, creativity and constant demand to learn new things that programming entails, and the more I learn, the more curious I get about everything that is still out there. Apart from that, I very much enjoy being able to build things that people use, plus the fun it is to work together with talented people to find the best solutions to difficult technical problems.",
+                "DE": "Nachdem ich ursprünglich eine völlig andere Disziplin studiert hatte, hat sich das Programmieren für mich, als ich damit anfing, es mir beizubringen, wie eine ganz neue Welt angefühlt, in der ich mich aber - überraschenderweise - pudelwohl gefühlt habe. Ich liebe die Dinge, die das Programmieren von einem fordert, das Puzzeln, das abstrakte Denken, die Kreativität und das ständige Lernen neuer Dinge, und je mehr ich lerne, umso neugieriger werde ich auf all die Dinge, die es noch zu lernen gibt. Außerdem genieße ich es, Dinge zu bauen, die Leute benutzen können, sowie die Freude daran, zusammen mit talentierten Menschen nach den besten Lösungen für schwierige technische Probleme zu suchen."
+            }
+        },
+        {
+            "title": {
+                "EN": "... and some very soft ones",
+                "DE": "... und noch ein paar ziemlich weiche"
+            },
+            "body": {
+                "EN": "Though you will also find me coding a good part of my free time, I also love reading, travelling, being out in nature, hiking, biking, and recently also climbing and bouldering.",
+                "DE": "Obwohl auch ein nicht ganz kleiner Anteil meiner Freizeit mit Programmieren gefüllt ist, gibt es auch noch ein paar andere Dinge, die mich begeistern - dazu gehören Lesen, Reisen, in der Natur unterwegs sein, Wandern, Rad fahren und neuerdings auch Klettern und Bouldern."
+            }
+        }
+    ],
+    "outro": {
+        "EN": "If that got you interested and you would like to know a bit more about my skills and what I have applied them to so far, check out the Skills & Projects sections. Thanks for bearing with me!",
+        "DE": "Wenn Sie neugierig geworden sind und mehr über meine Fähigkeiten erfahren wollen, und darüber, was ich bisher so mit ihnen angestellt habe, dann finden Sie unter Fähigkeiten und Projekte weitere Informationen. Vielen Dank für Ihre Aufmerksamkeit!"
+    }
+}

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./styles/App.scss";
 import Menu from "./components/Menu/Menu";
 import Hero from "./components/Hero/Hero";
+import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 
@@ -33,13 +34,19 @@ class App extends React.Component {
           {menuData.items.map(item => {
             return (
               <Route path={item.route} key={item.route}>
-                <Hero lang={this.state.lang} title={item.text} icon={item.icon} />
+                <Hero
+                  lang={this.state.lang}
+                  title={item.text}
+                  icon={item.icon}
+                />
                 <div className="container">{pages[item.route]}</div>
               </Route>
             );
           })}
           <Route path="/">
-            <div className="container">Home</div>
+            <div className="container">
+              <Home lang={this.state.lang} />
+            </div>
           </Route>
         </Switch>
       </Router>
