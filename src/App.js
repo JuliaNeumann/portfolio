@@ -1,12 +1,13 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./styles/App.scss";
 import Menu from "./components/Menu/Menu";
 import Hero from "./components/Hero/Hero";
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
+
+const Projects = React.lazy(() => import("./components/Projects/Projects"));
+const Skills = React.lazy(() => import("./components/Skills/Skills"));
 
 const menuData = require("./components/Menu/Menu.json");
 
@@ -43,7 +44,12 @@ class App extends React.Component {
                     title={item.text}
                     icon={item.icon}
                   />
-                  <div className="container">{pages[item.route]}</div>
+
+                  <div className="container">
+                    <Suspense fallback={<div>Loading...</div>}>
+                      {pages[item.route]}
+                    </Suspense>
+                  </div>
                 </main>
               </Route>
             );
