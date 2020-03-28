@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import Footer from "./components/Footer/Footer";
 
 const menuData = require("./components/Menu/Menu.json");
 
@@ -28,32 +29,39 @@ class App extends React.Component {
 
     return (
       <Router>
-        <Menu lang={this.state.lang} setLanguage={this.setLanguage} />
+        <header>
+          <Menu lang={this.state.lang} setLanguage={this.setLanguage} />
+        </header>
 
         <Switch>
           {menuData.items.map(item => {
             return (
               <Route path={item.route} key={item.route}>
-                <Hero
-                  lang={this.state.lang}
-                  title={item.text}
-                  icon={item.icon}
-                />
-                <div className="container">{pages[item.route]}</div>
+                <main>
+                  <Hero
+                    lang={this.state.lang}
+                    title={item.text}
+                    icon={item.icon}
+                  />
+                  <div className="container">{pages[item.route]}</div>
+                </main>
               </Route>
             );
           })}
           <Route path="/">
-            <Hero
-              lang={this.state.lang}
-              title={menuData.home.header}
-              icon={menuData.home.icon}
-            />
-            <div className="container">
-              <Home lang={this.state.lang} />
-            </div>
+            <main>
+              <Hero
+                lang={this.state.lang}
+                title={menuData.home.header}
+                icon={menuData.home.icon}
+              />
+              <div className="container">
+                <Home lang={this.state.lang} />
+              </div>
+            </main>
           </Route>
         </Switch>
+        <Footer lang={this.state.lang} />
       </Router>
     );
   }

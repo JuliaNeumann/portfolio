@@ -1,20 +1,4 @@
 {
-    "contactLinks": [
-        {
-            "text": {
-                "EN": "GitHub",
-                "DE": "GitHub"
-            },
-            "url": "https://github.com/JuliaNeumann"
-        },
-        {
-            "text": {
-                "EN": "LinkedIn",
-                "DE": "LinkedIn"
-            },
-            "url": "https://de.linkedin.com/in/jnjulianeumann"
-        }
-    ],
     "intro": {
         "EN": "Hey there, nice to have you here! I've built this small project to introduce myself to you, so let's not waste any time ...",
         "DE": "Hallo, schön, dass Sie hier sind! Mit diesem kleinen Projekt möchte ich mich Ihnen kurz vorstellen, also auf geht's ..."
@@ -53,5 +37,9 @@
             },
             "icon": "hiking"
         }
-    ]
+    ],
+    "outro": {
+        "EN": "... so much for starters, check out the other sections to find out more!",
+        "DE": "... genug für den Anfang, mehr Informationen finden Sie auf den weiteren Seiten!"
+    }
 }

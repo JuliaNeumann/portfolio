@@ -1,0 +1,10 @@
+@mixin separator($color) {
+    content: '';
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 18px;
+    background-color: $color;
+}

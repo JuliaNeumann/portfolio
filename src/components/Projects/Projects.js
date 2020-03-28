@@ -66,9 +66,7 @@ class Projects extends React.Component {
     this.fullTechList.forEach(tech => {
       const active = this.state.filterTechs.includes(tech);
       const tagClass =
-        this.state.filterTechs.length === 0 || active
-          ? "is-primary"
-          : "is-light";
+        this.state.filterTechs.length === 0 || active ? "is-info" : "is-light";
       techFilterItems.push(
         <li key={tech} className={`projects__tech-filter tag ${tagClass}`}>
           <button

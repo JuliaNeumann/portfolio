@@ -32,7 +32,7 @@ function ProjectCard(props) {
             <ul className="project-card__tech-list tags">
               {project.technologies.map(tech => {
                 return (
-                  <li key={tech} className="tag is-primary">
+                  <li key={tech} className="tag is-info">
                     {tech}
                   </li>
                 );

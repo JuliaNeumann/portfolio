@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+@import "bulma/sass/utilities/_all.sass";
+
+.footer {
+    background-color: $primary;
+    color: $white;
+    padding: 1rem;
+    margin-top: 1rem;
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__links {
+        flex-grow: 1;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__link-item {
+        display: inline-block;
+        position: relative;
+        padding-right: 0.5rem;
+
+        &:not(:first-of-type) {
+            padding-left: 0.5rem;
+        }
+
+        &:not(:last-of-type)::after {
+            @include separator($white);
+        }
+    }
+
+    &__link {
+        color: white;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    &__copyright {
+        flex-grow: 0;
+    }
+}

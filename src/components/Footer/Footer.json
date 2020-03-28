@@ -1,0 +1,22 @@
+{
+    "contactLinks": [
+        {
+            "text": {
+                "EN": "GitHub",
+                "DE": "GitHub"
+            },
+            "url": "https://github.com/JuliaNeumann"
+        },
+        {
+            "text": {
+                "EN": "LinkedIn",
+                "DE": "LinkedIn"
+            },
+            "url": "https://de.linkedin.com/in/jnjulianeumann"
+        }
+    ],
+    "copyright": {
+        "EN": "© Julia Neumann, 2020",
+        "DE": "© Julia Neumann, 2020"
+    }
+}

@@ -1,24 +1,17 @@
 @import "../../../styles/variables";
+@import "../../../styles/mixins";
 
 .language-select {
-    padding: 7px;
+    padding: 0.5rem;
     position: relative;
-    min-width: 36px;
 
     &--current,
     &:hover,
     &:focus {
-        font-weight: bold;
+        text-decoration: underline;
     }
 
     &:not(:last-of-type)::after {
-        content: '';
-        position: absolute;
-        right: -1px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 2px;
-        height: 18px;
-        background-color: $primary;
+        @include separator($primary);
     }
 }
