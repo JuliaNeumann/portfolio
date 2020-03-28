@@ -3,12 +3,22 @@
 @import "bulma/sass/utilities/_all.sass";
 
 .footer {
-    background-color: $primary;
-    color: $white;
-    padding: 1rem;
+    border-top: 4px solid $info;
     margin-top: 1rem;
+    background-color: $primary;
+    
+    &::before {
+        content: '';
+        background-image: url('../Hero/hero.svg');
+        height: 125px;
+        width: 100%;
+        display: block;
+        border-bottom: 4px solid $info;
+    }
 
     &__wrapper {
+        color: $white;
+        padding: 1rem;
         display: flex;
     }
 

@@ -1,14 +1,15 @@
 // Customize Bulma
 $primary: #31708F;
-$primary-dark: #245269;
+$primary-dark: #2a617c;
 $info: #2a8888;
+$secondary: #9f2b0d;
 $scheme-main: #f8f8f8;
 
 $navbar-item-color: $primary;
 $navbar-item-hover-color: white;
-$navbar-item-hover-background-color: $primary;
+$navbar-item-hover-background-color: $info;
 $navbar-item-active-color: white;
-$navbar-item-active-background-color: $primary;
+$navbar-item-active-background-color: $info;
 
 $content-heading-color: $primary;
 $content-heading-weight: 500;

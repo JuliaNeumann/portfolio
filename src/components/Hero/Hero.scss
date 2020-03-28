@@ -5,9 +5,10 @@
 .hero {
     margin-bottom: 1rem;
     height: 192px;
-    background-image: url("./hero.svg");
+    background-image: url('./hero.svg');
     background-repeat: no-repeat;
     background-position: center;
+    border-bottom: 4px solid $info;
 
     &__title {
         text-transform: uppercase;

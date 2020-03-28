@@ -27,7 +27,7 @@ class Menu extends React.Component {
   render() {
     return (
       <nav
-        className="menu navbar"
+        className="menu navbar is-primary"
         role="navigation"
         aria-label="main navigation"
       >
