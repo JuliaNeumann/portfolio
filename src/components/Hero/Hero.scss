@@ -5,10 +5,15 @@
 .hero {
     margin-bottom: 1rem;
     height: 192px;
-    background-image: url('./hero.svg');
+    background-image: url('./hero_small.svg');
     background-repeat: no-repeat;
-    background-position: center;
-    border-bottom: 4px solid $info;
+    background-position: left;
+    border-bottom: 4px solid $success;
+
+    @media only screen and (min-width: $widescreen) {
+        background-image: url('./hero.svg');
+        background-position: center;
+    }
 
     &__title {
         text-transform: uppercase;

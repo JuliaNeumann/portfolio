@@ -81,7 +81,7 @@ class Projects extends React.Component {
     });
 
     return (
-      <div className="columns is-desktop">
+      <div className="projects columns is-desktop">
         <div className="column is-one-fifth-desktop">
           <strong>{data.filters.headline[locale]}</strong>
           <ol className="projects__tech-list">{techFilterItems}</ol>

@@ -7,7 +7,12 @@
         margin: 0;
     }
 
-    &__tech-filter {
+    & &__tech-filter {
         margin: 0 $tag-distance $tag-distance 0;
+        
+        &:hover {
+            background-color: $info-dark;
+            color: $white;
+        } 
     }
 }

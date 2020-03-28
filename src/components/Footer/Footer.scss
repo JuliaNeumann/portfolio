@@ -9,11 +9,11 @@
     
     &::before {
         content: '';
-        background-image: url('../Hero/hero.svg');
-        height: 125px;
+        background-image: url('./footer.svg');
+        background-repeat: no-repeat;
+        height: 127px;
         width: 100%;
         display: block;
-        border-bottom: 4px solid $info;
     }
 
     &__wrapper {

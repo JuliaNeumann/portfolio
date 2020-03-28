@@ -3,8 +3,6 @@
 @import "bulma/sass/components/navbar.sass";
 
 .menu {
-    border-bottom: 4px solid $info;
-
     &__end {
         @media screen and (max-width: $navbar-breakpoint) {
             text-align: right;
