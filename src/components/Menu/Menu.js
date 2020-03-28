@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { LocaleContext, locales } from "../../locale-context";
 import LanguageSelect from "./LanguageSelect/LanguageSelect";
 
 import "./Menu.scss";
@@ -25,9 +26,11 @@ class Menu extends React.Component {
   }
 
   render() {
+    let locale = this.context;
+
     return (
       <nav
-        className="menu navbar is-primary"
+        className="menu navbar is-info"
         role="navigation"
         aria-label="main navigation"
       >
@@ -37,7 +40,7 @@ class Menu extends React.Component {
               className="menu__home-link navbar-item"
               to="/"
               activeClassName="is-active"
-              title={data.home.text[this.props.lang]}
+              title={data.home.text[locale]}
               exact={true}
             >
               <i className="fas fa-home"></i>
@@ -68,20 +71,20 @@ class Menu extends React.Component {
                     activeClassName="is-active"
                     onClick={this.close}
                   >
-                    {item.text[this.props.lang]}
+                    {item.text[locale]}
                   </NavLink>
                 );
               })}
             </div>
             <div className="menu__end navbar-end">
               <LanguageSelect
-                lang="EN"
-                current={this.props.lang === "EN"}
+                lang={locales.EN}
+                current={locale === locales.EN}
                 setLanguage={this.props.setLanguage}
               />
               <LanguageSelect
-                lang="DE"
-                current={this.props.lang === "DE"}
+                lang={locales.DE}
+                current={locale === locales.DE}
                 setLanguage={this.props.setLanguage}
               />
             </div>
@@ -91,5 +94,6 @@ class Menu extends React.Component {
     );
   }
 }
+Menu.contextType = LocaleContext;
 
 export default Menu;

@@ -3,16 +3,14 @@ import React from "react";
 import "./LanguageSelect.scss";
 
 function LanguageSelect(props) {
-  const language = props.lang;
-
   return (
     <button
-      onClick={() => props.setLanguage(language)}
+      onClick={() => props.setLanguage(props.lang)}
       className={`language-select ${
         props.current ? "language-select--current" : ""
       }`}
     >
-      {language}
+      {props.lang}
     </button>
   );
 }

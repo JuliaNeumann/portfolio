@@ -1,4 +1,5 @@
 import React from "react";
+import  {LocaleContext} from "../../locale-context";
 import ProjectCard from "./ProjectCard/ProjectCard";
 
 import "./Projects.scss";
@@ -50,6 +51,7 @@ class Projects extends React.Component {
   }
 
   render() {
+    const locale = this.context;
     const projectList = this.fullProjectList.filter(project => {
       if (this.state.filterTechs.length === 0) {
         return true;
@@ -61,7 +63,6 @@ class Projects extends React.Component {
       }
       return false;
     });
-    const language = this.props.lang;
     const techFilterItems = [];
     this.fullTechList.forEach(tech => {
       const active = this.state.filterTechs.includes(tech);
@@ -80,12 +81,12 @@ class Projects extends React.Component {
     });
 
     return (
-      <div class="columns is-desktop">
-        <div class="column is-one-fifth-desktop">
-          <strong>{data.filters.headline[language]}</strong>
+      <div className="columns is-desktop">
+        <div className="column is-one-fifth-desktop">
+          <strong>{data.filters.headline[locale]}</strong>
           <ol className="projects__tech-list">{techFilterItems}</ol>
         </div>
-        <div class="column">
+        <div className="column">
           <div className="columns is-multiline">
             {projectList.map(item => {
               return (
@@ -93,7 +94,6 @@ class Projects extends React.Component {
                   key={item.headline.EN}
                   project={item}
                   category={data.categories[item.category]}
-                  lang={language}
                 />
               );
             })}
@@ -103,5 +103,6 @@ class Projects extends React.Component {
     );
   }
 }
+Projects.contextType = LocaleContext;
 
 export default Projects;
