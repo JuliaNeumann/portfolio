@@ -2,7 +2,7 @@
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/components/navbar.sass";
 
-.menu {
+.menu-bar {
     &__end {
         @media screen and (max-width: $navbar-breakpoint) {
             text-align: right;

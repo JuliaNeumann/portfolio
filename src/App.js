@@ -2,15 +2,15 @@ import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./styles/App.scss";
 import { LocaleContext, locales } from "./locale-context";
-import Menu from "./components/Menu/Menu";
-import Hero from "./components/Hero/Hero";
+import MenuBar from "./components/MenuBar/MenuBar";
+import MainFrame from "./components/MainFrame/MainFrame";
 import Home from "./components/Home/Home";
-import Footer from "./components/Footer/Footer";
+import FooterBar from "./components/FooterBar/FooterBar";
 
 const Projects = React.lazy(() => import("./components/Projects/Projects"));
 const Skills = React.lazy(() => import("./components/Skills/Skills"));
 
-const menuData = require("./components/Menu/Menu.json");
+const menuData = require("./components/MenuBar/MenuBar.json");
 
 class App extends React.Component {
   constructor(props) {
@@ -23,8 +23,6 @@ class App extends React.Component {
     this.state = { locale: locales.EN, setLocale: this.setLocale };
   }
 
-  
-
   render() {
     const pages = {
       "/skills": <Skills />,
@@ -35,38 +33,27 @@ class App extends React.Component {
       <Router>
         <LocaleContext.Provider value={this.state}>
           <header>
-            <Menu />
+            <MenuBar />
           </header>
-
           <Switch>
             {menuData.items.map(item => {
               return (
                 <Route path={item.route} key={item.route}>
-                  <main>
-                    <Hero title={item.text} icon={item.icon} />
-
-                    <div className="container">
+                  <MainFrame hero={{title: item.text, icon: item.icon}}>
                       <Suspense fallback={<div>Loading...</div>}>
                         {pages[item.route]}
                       </Suspense>
-                    </div>
-                  </main>
+                  </MainFrame>
                 </Route>
               );
             })}
             <Route path="/">
-              <main>
-                <Hero
-                  title={menuData.home.header}
-                  icon={menuData.home.icon}
-                />
-                <div className="container">
+              <MainFrame hero={{title: menuData.home.header, icon: menuData.home.icon}}>
                   <Home />
-                </div>
-              </main>
+              </MainFrame>
             </Route>
           </Switch>
-          <Footer />
+          <FooterBar />
         </LocaleContext.Provider>
       </Router>
     );

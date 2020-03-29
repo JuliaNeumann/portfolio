@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import { LocaleContext, locales } from "../../locale-context";
 import LanguageSelect from "./LanguageSelect/LanguageSelect";
 
-import "./Menu.scss";
+import "./MenuBar.scss";
 
-const data = require("./Menu.json");
+const data = require("./MenuBar.json");
 
-class Menu extends React.Component {
+class MenuBar extends React.Component {
   constructor(props) {
     super(props);
 
@@ -30,14 +30,14 @@ class Menu extends React.Component {
 
     return (
       <nav
-        className="menu navbar is-info"
+        className="menu-bar navbar is-info"
         role="navigation"
         aria-label="main navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <NavLink
-              className="menu__home-link navbar-item"
+              className="menu-bar__home-link navbar-item"
               to="/"
               activeClassName="is-active"
               title={data.home.text[locale]}
@@ -66,7 +66,7 @@ class Menu extends React.Component {
                 return (
                   <NavLink
                     key={item.route}
-                    className="menu__item navbar-item"
+                    className="menu-bar__item navbar-item"
                     to={item.route}
                     activeClassName="is-active"
                     onClick={this.close}
@@ -76,7 +76,7 @@ class Menu extends React.Component {
                 );
               })}
             </div>
-            <div className="menu__end navbar-end">
+            <div className="menu-bar__end navbar-end">
               <LanguageSelect
                 lang={locales.EN}
                 current={locale === locales.EN}
@@ -92,6 +92,6 @@ class Menu extends React.Component {
     );
   }
 }
-Menu.contextType = LocaleContext;
+MenuBar.contextType = LocaleContext;
 
-export default Menu;
+export default MenuBar;
