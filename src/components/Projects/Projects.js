@@ -51,7 +51,7 @@ class Projects extends React.Component {
   }
 
   render() {
-    const locale = this.context;
+    const locale = this.context.locale;
     const projectList = this.fullProjectList.filter(project => {
       if (this.state.filterTechs.length === 0) {
         return true;

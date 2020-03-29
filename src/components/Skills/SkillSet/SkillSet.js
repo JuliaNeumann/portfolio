@@ -10,7 +10,7 @@ function SkillSet(props) {
 
   return (
     <LocaleContext.Consumer>
-      {locale => (
+      {({locale}) => (
         <section className="skill-set tile is-child box">
           <h2 className="skill-set__headline title is-4">
             {category.title[locale]}

@@ -5,4 +5,7 @@ export const locales = {
     DE: "DE"
   };
   
-export const LocaleContext = React.createContext(locales.EN);
+export const LocaleContext = React.createContext({
+    locale: locales.EN,
+    setLocale: (locale) => {}
+});

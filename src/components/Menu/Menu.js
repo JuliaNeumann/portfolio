@@ -26,7 +26,7 @@ class Menu extends React.Component {
   }
 
   render() {
-    let locale = this.context;
+    let locale = this.context.locale;
 
     return (
       <nav
@@ -80,12 +80,10 @@ class Menu extends React.Component {
               <LanguageSelect
                 lang={locales.EN}
                 current={locale === locales.EN}
-                setLanguage={this.props.setLanguage}
               />
               <LanguageSelect
                 lang={locales.DE}
                 current={locale === locales.DE}
-                setLanguage={this.props.setLanguage}
               />
             </div>
           </div>

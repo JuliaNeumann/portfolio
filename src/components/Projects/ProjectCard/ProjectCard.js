@@ -12,7 +12,7 @@ function ProjectCard(props) {
 
   return (
     <LocaleContext.Consumer>
-      {locale => (
+      {({locale}) => (
         <div className="project-card column is-half">
           <article className="project-card__card card">
             <header className="project-card__header card-header">

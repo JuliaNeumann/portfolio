@@ -8,7 +8,7 @@ const data = require("./Home.json");
 function Home() {
   return (
     <LocaleContext.Consumer>
-      {locale => (
+      {({locale}) => (
         <div className="home">
           {data.main.map((section, index) => {
             const columnModifiers =

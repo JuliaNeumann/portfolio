@@ -8,7 +8,7 @@ const data = require("./Footer.json");
 function Footer() {
   return (
     <LocaleContext.Consumer>
-      {locale => (
+      {({locale}) => (
         <footer className="footer">
           <div className="footer__wrapper container">
             <ul className="footer__links">

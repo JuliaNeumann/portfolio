@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./styles/App.scss";
-import { LocaleContext } from "./locale-context";
+import { LocaleContext, locales } from "./locale-context";
 import Menu from "./components/Menu/Menu";
 import Hero from "./components/Hero/Hero";
 import Home from "./components/Home/Home";
@@ -15,13 +15,15 @@ const menuData = require("./components/Menu/Menu.json");
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { lang: "EN" };
-    this.setLanguage = this.setLanguage.bind(this);
+
+    this.setLocale = locale => {
+      this.setState({ locale });
+    };
+
+    this.state = { locale: locales.EN, setLocale: this.setLocale };
   }
 
-  setLanguage(lang) {
-    this.setState({ lang });
-  }
+  
 
   render() {
     const pages = {
@@ -31,9 +33,9 @@ class App extends React.Component {
 
     return (
       <Router>
-        <LocaleContext.Provider value={this.state.lang}>
+        <LocaleContext.Provider value={this.state}>
           <header>
-            <Menu setLanguage={this.setLanguage} />
+            <Menu />
           </header>
 
           <Switch>

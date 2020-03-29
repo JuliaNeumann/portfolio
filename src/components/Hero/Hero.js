@@ -6,7 +6,7 @@ import "./Hero.scss";
 function Hero(props) {
   return (
     <LocaleContext.Consumer>
-      {locale => (
+      {({locale}) => (
         <section className="hero is-small">
           <div className="hero-body">
             <div className="container">
