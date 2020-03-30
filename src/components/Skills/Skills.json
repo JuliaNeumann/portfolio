@@ -35,8 +35,8 @@
             },
             "items": [
                 {
-                    "EN": "Node.js, PHP, Java / SpringBoot, Python (basic knowledge)",
-                    "DE": "Node.js, PHP, Java / SpringBoot, Python (Grundkenntnisse)"
+                    "EN": "Python (basic knowledge), Node.js, PHP, Java / SpringBoot",
+                    "DE": "Python (Grundkenntnisse), Node.js, PHP, Java / SpringBoot"
                 },
                 {
                     "EN": "Databases: MySQL, Redis",
@@ -64,7 +64,7 @@
                 },
                 {
                     "EN": "Build processes with grunt, npm, Webpack, gradle",
-                    "DE": "Build Prozesse mit grunt, npm, Webpack, gradle"
+                    "DE": "Build-Prozesse mit grunt, npm, Webpack, gradle"
                 },
                 {
                     "EN": "Basic knowledge of DevOps, CI/CD (Jenkins, Azure DevOps, OpenShift)",
@@ -99,7 +99,7 @@
                     "DE": "Führen von Vorstellungsgesprächen"
                 },
                 {
-                    "EN": "Agile way of working/ Scrum",
+                    "EN": "Agile way of working / Scrum",
                     "DE": "Agiles Arbeiten / Scrum"
                 },
                 {
@@ -119,7 +119,7 @@
                     "DE": "Ausgeprägtes logisch-analytisches Denkvermögen"
                 },
                 {
-                    "EN": "Quick wit and love of learning new things",
+                    "EN": "Quick wit and love learning new things",
                     "DE": "Schnelle Auffassungsgabe und Freude am Lernen"
                 },
                 {
