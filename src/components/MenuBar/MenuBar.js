@@ -38,7 +38,7 @@ class MenuBar extends React.Component {
           <div className="navbar-brand">
             <NavLink
               className="menu-bar__home-link navbar-item"
-              to="/"
+              to="/portfolio"
               activeClassName="is-active"
               title={data.home.text[locale]}
               exact={true}

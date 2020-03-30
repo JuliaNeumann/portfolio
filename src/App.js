@@ -47,7 +47,7 @@ class App extends React.Component {
                 </Route>
               );
             })}
-            <Route path="/">
+            <Route path="/portfolio">
               <MainFrame hero={{title: menuData.home.header, icon: menuData.home.icon}}>
                   <Home />
               </MainFrame>
