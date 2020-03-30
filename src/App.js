@@ -18,6 +18,7 @@ class App extends React.Component {
 
     this.setLocale = locale => {
       this.setState({ locale });
+      document.documentElement.lang = locale.toLowerCase();
     };
 
     this.state = { locale: locales.EN, setLocale: this.setLocale };
