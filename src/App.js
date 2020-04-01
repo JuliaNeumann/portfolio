@@ -39,7 +39,7 @@ class App extends React.Component {
           <Switch>
             {menuData.items.map(item => {
               return (
-                <Route path={item.route} key={item.route}>
+                <Route path={menuData.home.route + item.route} key={item.route}>
                   <MainFrame hero={{title: item.text, icon: item.icon}}>
                       <Suspense fallback={<div>Loading...</div>}>
                         {pages[item.route]}
@@ -48,7 +48,7 @@ class App extends React.Component {
                 </Route>
               );
             })}
-            <Route path="/portfolio">
+            <Route exact path={menuData.home.route}>
               <MainFrame hero={{title: menuData.home.header, icon: menuData.home.icon}}>
                   <Home />
               </MainFrame>

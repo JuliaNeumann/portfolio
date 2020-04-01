@@ -67,7 +67,7 @@ class MenuBar extends React.Component {
                   <NavLink
                     key={item.route}
                     className="menu-bar__item navbar-item"
-                    to={item.route}
+                    to={data.home.route + item.route}
                     activeClassName="is-active"
                     onClick={this.close}
                   >
