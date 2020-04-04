@@ -6,42 +6,26 @@
 .home {
     &__title {
         text-transform: uppercase;
+        @media only screen and (min-width: $tablet) {
+            min-height: 3.375rem;
+        }
     }
 
     &__teaser-text {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         color: $info;
-        margin: 0;
     }
 
-    &__box-wrapper {
-        @media only screen and (min-width: $tablet) {
-            &:not(:first-of-type) {
-                margin-top: -300px;
-            }
+    @media only screen and (min-width: $tablet) {
+        &__box {
+            height: 100%;
+            display: flex;
+            flex-direction: column;    
         }
-    }
 
-    & &__column { // need a bit more specifity here to overrule bulma... 
-        @media only screen and (min-width: $tablet) {
-            &--0 {
-                order: 1;
-            }
-
-            &--intro {
-                order: 2;
-            }
-
-            &--last {
-                order: 2;
-            }
-    
-            &--outro {
-                order: 1;
-                display: flex;
-                align-items: flex-end;
-            }
+        &__text {
+            flex-grow: 1;
         }
     }
 
