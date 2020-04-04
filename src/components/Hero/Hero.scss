@@ -4,11 +4,14 @@
 
 .hero {
     margin-bottom: 1rem;
-    height: 192px;
+    height: 131px;
     background-image: url('./hero_small.svg');
-    background-repeat: no-repeat;
-    background-position: left;
+    background-position: left -1px;
     border-bottom: 4px solid $success;
+
+    @media only screen and (min-width: $desktop) {
+        height: 192px;
+    }
 
     @media only screen and (min-width: $widescreen) {
         background-image: url('./hero.svg');

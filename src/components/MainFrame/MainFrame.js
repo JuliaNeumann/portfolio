@@ -7,7 +7,7 @@ function MainFrame(props) {
   return (
     <main className="main-frame">
       <Hero {...props.hero} />
-      <div className="container">{props.children}</div>
+      <div className="main-frame__container container">{props.children}</div>
     </main>
   );
 }

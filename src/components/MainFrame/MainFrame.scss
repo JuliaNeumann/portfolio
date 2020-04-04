@@ -1,3 +1,14 @@
+@import "../../styles/variables";
+@import "bulma/sass/utilities/_all.sass";
+
 .main-frame {
     flex-grow: 1;
+
+    &__container {
+        padding: 0 1rem;
+
+        @media only screen and (min-width: $desktop) {
+            padding: 0;
+        }
+    }
 }

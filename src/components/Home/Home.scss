@@ -6,7 +6,7 @@
 .home {
     &__title {
         text-transform: uppercase;
-        @media only screen and (min-width: $tablet) {
+        @media only screen and (min-width: $desktop) {
             min-height: 3.375rem;
         }
     }
@@ -17,7 +17,7 @@
         color: $info;
     }
 
-    @media only screen and (min-width: $tablet) {
+    @media only screen and (min-width: $desktop) {
         &__box {
             height: 100%;
             display: flex;

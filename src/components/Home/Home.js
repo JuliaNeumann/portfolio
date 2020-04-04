@@ -11,12 +11,12 @@ function Home() {
       {({ locale }) => (
         <div className="home">
           <p className="home__teaser-text">{data.intro[locale]}</p>
-          <div className="columns">
+          <div className="columns is-desktop">
             {data.main.map((section, index) => {
               return (
                 <div
                   key={section.icon}
-                  className="column is-4"
+                  className="column"
                 >
                   <section className="home__box box">
                     <h2 className="home__title title is-4">
