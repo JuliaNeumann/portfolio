@@ -11,7 +11,8 @@
         content: '';
         background-image: url('./footer.svg');
         background-repeat: no-repeat;
-        height: 127px;
+        background-position-y: -1px;
+        height: 126px;
         width: 100%;
         display: block;
     }
