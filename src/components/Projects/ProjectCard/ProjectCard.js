@@ -46,6 +46,8 @@ function ProjectCard(props) {
                   <a
                     href={project.link.url}
                     className="project-card__link card-footer-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {project.link.text[locale]}
                   </a>

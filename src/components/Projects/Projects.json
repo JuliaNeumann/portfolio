@@ -54,8 +54,8 @@
       "link": {
         "url": "https://github.com/JuliaNeumann/e_tests",
         "text": {
-          "EN": "Github",
-          "DE": "Github"
+          "EN": "GitHub",
+          "DE": "GitHub"
         }
       },
       "technologies": ["HTML", "CSS", "jQuery", "JS", "PHP", "MySQL"]
@@ -87,8 +87,8 @@
       "link": {
         "url": "https://github.com/JuliaNeumann/portfolio",
         "text": {
-          "EN": "Github",
-          "DE": "Github"
+          "EN": "GitHub",
+          "DE": "GitHub"
         }
       },
       "technologies": ["HTML", "SCSS", "React", "JS"]
@@ -107,8 +107,8 @@
       "link": {
         "url": "https://github.com/JuliaNeumann/quiz_app",
         "text": {
-          "EN": "Github",
-          "DE": "Github"
+          "EN": "GitHub",
+          "DE": "GitHub"
         }
       },
       "technologies": ["Vue", "Webpack", "Angular", "HTML", "CSS", "JS"]
@@ -127,8 +127,8 @@
       "link": {
         "url": "https://github.com/JuliaNeumann/event-planner-plugin",
         "text": {
-          "EN": "Github",
-          "DE": "Github"
+          "EN": "GitHub",
+          "DE": "GitHub"
         }
       },
       "technologies": [
@@ -157,8 +157,8 @@
       "link": {
         "url": "https://github.com/JuliaNeumann/nltk_book_exercises",
         "text": {
-          "EN": "Github",
-          "DE": "Github"
+          "EN": "GitHub",
+          "DE": "GitHub"
         }
       },
       "technologies": ["Python"]
@@ -177,8 +177,8 @@
       "link": {
         "url": "https://github.com/JuliaNeumann/randomTime",
         "text": {
-          "EN": "Github",
-          "DE": "Github"
+          "EN": "GitHub",
+          "DE": "GitHub"
         }
       },
       "technologies": [
