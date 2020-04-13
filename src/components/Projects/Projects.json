@@ -245,6 +245,7 @@
       "technologies": [
         "Vue",
         "Nuxt",
+        "Vuex",
         "Less",
         "JS",
         "Java",
