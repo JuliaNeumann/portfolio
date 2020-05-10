@@ -111,7 +111,7 @@
           "DE": "GitHub"
         }
       },
-      "technologies": ["Vue", "Webpack", "Angular", "HTML", "CSS", "JS"]
+      "technologies": ["Vue", "Webpack", "Angular", "HTML", "CSS", "JS", "React"]
     },
     {
       "headline": {
