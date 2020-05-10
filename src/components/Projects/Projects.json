@@ -16,7 +16,7 @@
     },
     "side": {
       "EN": "side project",
-      "DE": "Nebenproject"
+      "DE": "Nebenprojekt"
     }
   },
   "items": [
@@ -260,7 +260,9 @@
         "TestCafé",
         "Webpack",
         "gradle",
-        "RabbitMQ"
+        "RabbitMQ",
+        "GCP",
+        "Azure DevOps"
       ]
     }
   ]

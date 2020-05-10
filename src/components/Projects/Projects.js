@@ -26,7 +26,7 @@ class Projects extends React.Component {
           }
           return item1.years[0] - item2.years[0];
         }
-      );
+      ).reverse();
     this.fullTechList = Array.from(fullTechSet).sort(function(tech1, tech2) {
       return tech1.toLowerCase().localeCompare(tech2.toLowerCase());
     });
