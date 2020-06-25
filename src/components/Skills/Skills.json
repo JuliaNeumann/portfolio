@@ -35,8 +35,8 @@
             },
             "items": [
                 {
-                    "EN": "Python (basic knowledge), Node.js, PHP, Java / SpringBoot",
-                    "DE": "Python (Grundkenntnisse), Node.js, PHP, Java / SpringBoot"
+                    "EN": "Java / SpringBoot, Python, Node.js, PHP",
+                    "DE": "Java / SpringBoot, Python, Node.js, PHP"
                 },
                 {
                     "EN": "Databases: MySQL, Redis",
@@ -171,8 +171,8 @@
             },
             "items": [
                 {
-                    "EN": "MS Office & LibreOffice",
-                    "DE": "MS Office & LibreOffice"
+                    "EN": "macOS & Linux",
+                    "DE": "macOS & Linux"
                 },
                 {
                     "EN": "Driving license class B",
